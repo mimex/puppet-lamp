@@ -4,4 +4,10 @@ class mysql {
         ensure => installed,
     }
 
+    service {'mysqld':
+        name => 'mysqld',
+        ensure => running,
+        enable => true,
+    }
+
 }
