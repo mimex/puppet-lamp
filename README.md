@@ -17,6 +17,7 @@ Dentro de la carpeta del proyecto.
 
 Iniciar la máquina (la configuración de Puppet dentro del Vagrantfile 
 instalará Apache, PHP y MySQL con las configuraciones predeterminadas):
+
     vagrant up
 
 Conectarse a la máquina vía SSH:
