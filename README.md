@@ -1,4 +1,4 @@
-PUPPET-LAMPP
+Puppet-LAMP
 ======
 Ejercicio para crear un LAMP stack con Puppet
 
@@ -20,7 +20,9 @@ instalará Apache, PHP y MySQL con las configuraciones predeterminadas):
     vagrant up
 
 Conectarse a la máquina vía SSH:
+
     vagrant ssh
 
 Detener la ejecución de la máquina:
+
     vagrant halt
